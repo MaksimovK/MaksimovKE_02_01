@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="enter_login">Введите логин</string>
+    <string name="title_geom">Геометрический калькулятор</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="register">Регистрация</string>
+    <string name="choice_figure">Выбор фигуры</string>
+    <string name="enter_data">Введите данные для расчета</string>
+    <string name="calculate">Выполнить расчет</string>
+    <string name="result">Результат вычисления</string>
+    <string name="figure_name">Название выбранной фигуры</string>
+    <string-array name="spinner_array">
+        <item>Треугольник</item>
+        <item>Круг</item>
+    </string-array>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/blue"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_geom"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:paddingTop="20dp"
+        android:paddingBottom="80dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/figure_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:hint="@string/figure_name"
+        android:minHeight="50dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:paddingVertical="14dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/edit_text_bg"
+        />
+
+    <TextView
+        android:id="@+id/figure_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:hint="@string/result"
+        android:minHeight="50dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:paddingVertical="14dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/edit_text_bg"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_to_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:height="50dp"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="15dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        />
+</LinearLayout>
